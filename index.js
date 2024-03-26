@@ -30,7 +30,6 @@ function execute() {
     else {
         $(".outputCalc").html("INVALID INPUT. Only natural numbers will be considered as an input &#x1F620 ");
     }
-    document.getElementById("display").value = "";
     $(".executebtn").remove();
 }
 
